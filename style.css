@@ -1,0 +1,135 @@
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Welcome message */
+
+
+.welcome {
+    margin: 0;
+    padding: 20px;
+    color: rgb(148, 27, 27);
+    font-size: 50px;
+}
+.header {
+    background-color: lightgrey;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:rgb(148, 27, 27) 0px 0px 8px 0px;
+}
+
+
+/* What's your name */
+
+
+.bidDisplay {
+    width: 100%;
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 1s;
+}
+.lastBid {
+    font-size: 34px;
+    margin: 0;
+}
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: solid 2px rgb(148, 27, 27);
+    font-weight: bold;
+    font-size: 24px;
+}
+#button {
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(148, 27, 27);
+    border: transparent;
+    height: 30px;
+    color: white;
+    box-shadow: rgb(148, 27, 27) 0px 0px 8px 0px;
+}
+#button:hover {
+    opacity: 75%;
+    cursor: pointer;
+}
+
+
+/* Main Body */
+
+
+.hello {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+#output {
+color: rgb(148, 27, 27);
+font-size: 50px;
+padding-top: 30px;
+}
+
+#input1, #input2, #enter{
+    height: 30px;
+}
+
+#enterName{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input{
+    margin-bottom: 20px;
+    height: 30px;
+    border-radius: 10px;
+}
+.username{
+    font-size: 34px;
+    color: rgb(148, 27, 27);
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.enterBid{
+    display: none;
+}
+#whatsYourName{
+    text-align: center;
+}
+.color1{
+    color: green;
+}
+.color2{
+    color: blue;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
